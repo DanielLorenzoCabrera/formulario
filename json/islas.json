@@ -1,0 +1,43 @@
+[
+    {
+        "isla_id" : "01",
+        "nombre" : "Gran Canaria",
+        "provincia_id" : "35"
+        
+    },
+    {
+        "isla_id" : "02",
+        "nombre" : "Lanzarote",
+        "provincia_id" : "35"  
+    },
+    {
+        "isla_id" : "03",
+        "nombre" : "Fuerteventura",
+        "provincia_id" : "35"  
+    },
+    {
+        "isla_id" : "04",
+        "nombre" : "La Graciosa",
+        "provincia_id" : "35"  
+    },
+    {
+        "isla_id" : "05",
+        "nombre" : "Tenerife",
+        "provincia_id" : "38"  
+    },
+    {
+        "isla_id" : "06",
+        "nombre" : "La Palma",
+        "provincia_id" : "38"  
+    },
+    {
+        "isla_id" : "07",
+        "nombre" : "La Gomera",
+        "provincia_id" : "38"  
+    },
+    {
+        "isla_id" : "08",
+        "nombre" : "El Hierro",
+        "provincia_id" : "38"  
+    }
+]

@@ -1,0 +1,93 @@
+.wrapper{
+background-color: rgb(245, 241, 237);
+width: 80%;
+margin: 0 auto;
+
+
+}
+
+
+.wrapper>h1{
+    text-align: center;
+    color: rgb(17, 183, 238);
+    
+}
+
+fieldset > div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+fieldset > div > section{
+    margin: .3em;
+}
+
+#representante > div, #mas_datos > div{
+    justify-content: flex-start;
+}
+
+#datos_representante > div{
+    display: flex;
+   
+}
+
+legend{
+    background-color: deepskyblue;
+    margin: 0 auto;
+    padding: .5em 15em;
+    font-weight: bolder;
+    color: white;
+    border-radius: .2em;
+
+
+}
+
+fieldset{
+    border-color: deepskyblue;
+    margin: 1em 0;
+    border-radius: .2em;
+}
+
+
+#datos_academicos > div{
+    flex-flow: column nowrap;
+}
+
+.campo{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: .3em;
+    align-items: center;
+}
+
+.apartado{
+    font-weight: bold;
+}
+
+textarea{
+    width: 70%;
+}
+
+#aviso{
+    background-color: rgb(243, 219, 81);
+    padding: 1em;
+    border-radius: .2em;
+    margin: 1em;
+    border: rgb(231, 173, 13) .13em solid;
+}
+
+#aviso>p{
+    font-weight: bold;
+}
+
+#aviso>ul>li{
+    font-weight: bold;
+}
+
+.error span{
+    font-weight: bolder;
+    color: red;
+}
+
+
