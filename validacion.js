@@ -19,6 +19,7 @@
         islas = data;
     });
 
+
     $("#paises").change(function () {
         $('#provincias').empty(); // Vaciamos el contenido de islas
 
@@ -50,6 +51,7 @@
         islas = data;
     });
 
+   
 
     $("#provincias").change(function () {
         $('#islas').empty(); // Vaciamos el contenido de islas

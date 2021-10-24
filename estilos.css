@@ -1,10 +1,17 @@
-.wrapper{
+.wrapper, body > section{
 background-color: rgb(245, 241, 237);
 width: 80%;
-margin: 0 auto;
-
+margin: .5em auto;
+padding: .5em;
 
 }
+
+body > section >h3{
+    text-align: center;
+}
+
+
+
 
 
 .wrapper>h1{
@@ -34,8 +41,7 @@ fieldset > div > section{
 
 legend{
     background-color: deepskyblue;
-    margin: 0 auto;
-    padding: .5em 15em;
+    text-align: center;
     font-weight: bolder;
     color: white;
     border-radius: .2em;
@@ -87,7 +93,18 @@ textarea{
 
 .error span{
     font-weight: bolder;
-    color: red;
+    color: rgb(199, 13, 13);
 }
+
+.error::before{
+    content: "* ";
+}
+
+.solicitud_completada{
+    background-color: beige;
+    padding: 1em;
+}
+
+
 
 

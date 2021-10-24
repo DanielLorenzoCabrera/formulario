@@ -56,27 +56,27 @@
 
                 <section class="campo">
                     <p class="apartado">Nº de identificación (*)</p>
-                    <input type="text" name="identificacion" id="identificacion" value="<?= comprobarSiExiste('identificacion') ?>" /*required*/>
+                    <input type="text" name="identificacion" id="identificacion" value="<?= comprobarSiExiste('identificacion') ?>" required>
                 </section>
 
                 <section class="campo">
                     <p class="apartado">Nombre (*)</p>
-                    <input type="text" name="nombre" id="nombre" value="<?= comprobarSiExiste('nombre') ?>"/*required*/>
+                    <input type="text" name="nombre" id="nombre" value="<?= comprobarSiExiste('nombre') ?>"required>
                 </section>
                 
                 <section class="campo">
                     <p class="apartado">Primer apellido (*)</p>
-                    <input type="text" name="apellido1" id="apellido1" value="<?= comprobarSiExiste('apellido1') ?>"/*required*/>
+                    <input type="text" name="apellido1" id="apellido1" value="<?= comprobarSiExiste('apellido1') ?>"required>
                 </section>
 
                 <section class="campo">
                     <p class="apartado">Segundo apellido (*)</p>
-                    <input type="text" name="apellido2" id="apellido2" value="<?= comprobarSiExiste('apellido2') ?>" /*required*/>
+                    <input type="text" name="apellido2" id="apellido2" value="<?= comprobarSiExiste('apellido2') ?>" required>
                 </section>
 
                 <section class="campo">
                     <p class="apartado">En calidad de (*)</p>
-                    <select name="calidad_de" id="calidad_de"  /*required*/>
+                    <select name="calidad_de" id="calidad_de"  required>
                         <option value="guardador_de_hecho" <?= comprobarSelect("calidad_de","guardador_de_hecho", "selected",' ')  ?>>Guardador de hecho</option>
                         <option value="patria_potestad" <?=  comprobarSelect("calidad_de","patria_potestad", "selected",' ') ?> >Patria potestad</option>
                         <option value="representante_voluntario" <?=  comprobarSelect("calidad_de","representante_voluntario", "selected",' ') ?>>Representante voluntario</option>
@@ -92,12 +92,12 @@
 
                 <section class="campo">
                     <p class="apartado">Teléfono móvil (*) </p>
-                    <input type="text" name="movil" id="movil" value="<?= comprobarSiExiste("movil")?>" /*required*/>
+                    <input type="text" name="movil" id="movil" value="<?= comprobarSiExiste("movil")?>" required>
                 </section>
 
                 <section class="campo">
                     <p class="apartado">Correo electrónico (*) </p>
-                    <input type="text" name="correo" id="correo" value="<?= comprobarSiExiste("correo")?>" /*required*/>
+                    <input type="text" name="correo" id="correo" value="<?= comprobarSiExiste("correo")?>" required>
                 </section>
             </div>
         </fieldset>
@@ -106,7 +106,7 @@
             <div>
                 <section class="campo">
                         <p class="apartado">Tipo de vía (*)</p>
-                        <select name="via" id="via" /*required*/>
+                        <select name="via" id="via" required>
                             <option value="avenida" <?=  comprobarSelect('via','avenida','selected', ' ') ?>>Avenida</option>
                             <option value="calle" <?= comprobarSelect('via','calle','selected',' ') /* $_REQUEST['via'] == 'calle' ? 'selected' : ' '*/ ?>>Calle</option>
                             <option value="carretera" <?=  comprobarSelect('via','carretera','selected',' ') ?>>Carretera</option>
@@ -120,12 +120,12 @@
                 </section>
                 <section class="campo">
                         <p class="apartado">Nombre de vía (*)</p>
-                        <input type="text" name="nombre_via" id="nombre_via" value="<?=comprobarSiExiste('nombre_via')?>" /*required*/>
+                        <input type="text" name="nombre_via" id="nombre_via" value="<?=comprobarSiExiste('nombre_via')?>" required>
                 </section>
 
                 <section class="campo">
                         <p class="apartado">Número (*)</p>
-                        <input type="text" name="numero_via" id="numero_via" value="<?=comprobarSiExiste('numero_via')?>" /*required*/>
+                        <input type="text" name="numero_via" id="numero_via" value="<?=comprobarSiExiste('numero_via')?>" required>
                 </section>
 
                 <section class="campo">
@@ -165,34 +165,34 @@
 
                 <section class="campo">
                         <p class="apartado">País (*)</p>
-                        <select name="paises" id="paises" /*required*/></select>             
+                        <select name="paises" id="paises" required></select>             
                 </section>
 
                 <section class="campo">
                         <p class="apartado">Provincia (*)</p>
-                        <select name="provincias" id="provincias" /*required*/></select>
+                        <select name="provincias" id="provincias" required></select>
                 </section>
 
                 <section class="campo">
                         <p class="apartado">Isla (*)</p>
-                        <select name="islas" id="islas" /*required*/>
+                        <select name="islas" id="islas">
                         </select>
                 </section>
 
                 <section class="campo">
                         <p class="apartado">Municipio (*)</p>
-                        <select name="municipios" id="municipios" /*required*/>
+                        <select name="municipios" id="municipios" required>
                         </select>
                 </section>
 
                 <section class="campo">
                         <p class="apartado">Localidad (*)</p>
-                        <input type="text" name="localidad" id="localidad" value="<?=comprobarSiExiste('localidad')?>" /*required*/>
+                        <input type="text" name="localidad" id="localidad" value="<?=comprobarSiExiste('localidad')?>" required>
                 </section>
 
                 <section class="campo">
                         <p class="apartado">Código postal (*)</p>
-                        <input type="text" name="codigo_postal" id="codigo_postal" value="<?=comprobarSiExiste('codigo_postal')?>"/*required*/>
+                        <input type="text" name="codigo_postal" id="codigo_postal" value="<?=comprobarSiExiste('codigo_postal')?>"required>
                 </section>
             </div>
 
@@ -298,7 +298,6 @@
                     </p>
                 
                 </div>
-                    
                 </section>
 
 
@@ -314,7 +313,7 @@
                         <label for="cultura_cientifica">Cultura Científica</label>
                     </p>
                     <p>
-                        <input type="radio" name="optativa2" id="segunda_lengua" value="segunda_lengua" <?= comprobarSelect('optativa2','segunda_lengua','checked', ' ')?>>
+                        <input type="radio" name="optativa2" id="segunda_lengua" value="segunda_lengua_ingles" <?= comprobarSelect('optativa2','segunda_lengua_ingles','checked', ' ')?>>
                         <label for="segunda_lengua">Segunda Lengua Extrangera(Inglés)</label>
                     </p>
                     <p>
@@ -437,7 +436,7 @@
         </fieldset>
 
         <section>
-            <input type="submit" value="PROCESAR">
+            <input type="submit" value="PROCESAR" name="enviar">
             <input type="reset" value="CANCELAR">
         </section>
 
